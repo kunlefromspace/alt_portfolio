@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kunle — Software Developer &amp; AI Automation Engineer</title>
+  <meta name="description" content="Portfolio of Kunle — software developer, AI &amp; automation engineer. Full-stack builds, AI workflow automation, and applied machine learning.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%2064%2064%27%3E%3Crect%20width%3D%2764%27%20height%3D%2764%27%20rx%3D%2714%27%20fill%3D%27%23090d12%27/%3E%3Cpath%20d%3D%27M6%2034%20L16%2034%20L20%2020%20L26%2046%20L32%2026%20L38%2040%20L44%2022%20L50%2034%20L58%2034%27%20fill%3D%27none%27%20stroke%3D%27%2355d6c0%27%20stroke-width%3D%274%27%20stroke-linecap%3D%27round%27%20stroke-linejoin%3D%27round%27/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Manrope:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="index.js" defer></script>
+</head>
+<body>
+
+  <svg class="noise" aria-hidden="true">
+    <filter id="n"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/></filter>
+    <rect width="100%" height="100%" filter="url(#n)"/>
+  </svg>
+
+  <header class="nav" id="siteNav">
+    <div class="wrap nav-inner">
+      <a class="nav-mark" href="#hero"><span class="dot"></span>KunleFromSpace</a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#skills">Stack</a>
+        <a href="#experience">Experience</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-cta">
+        <a class="btn btn-ghost" href="#contact" style="display:none" id="navCtaDesktop">Let's talk</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+    <div class="nav-mobile-panel" id="navMobile">
+      <a href="#work">Work</a>
+      <a href="#skills">Stack</a>
+      <a href="#experience">Experience</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="wrap">
+        <div class="hero-copy">
+          <span class="eyebrow">$ whoami</span>
+          <h1>Software developer &amp; AI automation engineer.</h1>
+          <p class="role-line">I build full-stack products and AI-driven automation pipelines.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#work">View projects</a>
+            <a class="btn btn-ghost" href="#contact">Get in touch</a>
+          </div>
+        </div>
+
+        <div class="trace-wrap">
+          <div class="trace-caption"><span>Trace 001 — live signal</span><span>Ch. A / Ch. B</span></div>
+          <svg class="trace" viewBox="0 0 1200 140" preserveAspectRatio="none" aria-hidden="true">
+            <path id="traceA" stroke="var(--signal)" d="M0,70 L30,70 L45,42 L60,98 L78,55 L96,88 L114,30 L132,95 L150,60 L168,70 L186,25 L204,105 L222,65 L240,70 L258,48 L276,92 L294,58 L312,70 L330,15 L348,110 L366,62 L384,70 L402,50 L420,80 L438,35 L456,100 L474,66 L492,70 L510,44 L528,90 L546,60 L564,20 L582,105 L600,70 L618,70 L636,52 L654,86 L672,58 L690,70 L708,30 L726,98 L744,64 L762,70 L780,46 L798,92 L816,60 L834,70 L852,18 L870,108 L888,66 L906,70 L924,50 L942,84 L960,36 L978,100 L996,68 L1014,70 L1032,44 L1050,90 L1068,60 L1086,70 L1104,55 L1122,80 L1140,70 L1170,70 L1200,70"/>
+            <path id="traceB" stroke="var(--amber)" opacity="0.55" d="M0,70 L36,70 L52,86 L70,54 L92,72 L112,44 L134,82 L156,68 L176,70 L198,90 L216,52 L236,70 L256,84 L276,60 L296,70 L318,40 L338,94 L358,66 L378,70 L400,50 L420,78 L440,62 L460,70 L482,86 L502,58 L522,70 L544,42 L564,92 L584,66 L604,70 L626,54 L646,80 L666,60 L686,70 L708,88 L728,56 L748,70 L770,46 L790,84 L810,64 L830,70 L852,90 L872,58 L892,70 L914,48 L934,80 L954,62 L974,70 L996,86 L1016,60 L1036,70 L1058,44 L1078,92 L1098,66 L1118,70 L1140,70 L1170,70 L1200,70"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="wrap">
+        <div class="about-grid">
+          <div class="core-sample" aria-hidden="true"></div>
+          <div>
+            <span class="eyebrow">About</span>
+            <h2>I Explored the Earth. Now I Build Digital Worlds.</h2>
+            <div class="about-body" style="margin-top:1.4rem;">
+              <p class="lede">A geophysics graduate who moved into software and never really stopped thinking in signals.</p>
+              <p>My background is in subsurface data: seismic traces, well logs, geological cross-sections — patterns buried in noise. That training carried straight over into software and AI: same instinct for finding structure in messy inputs, now applied to APIs, datasets, and automation pipelines instead of rock layers.</p>
+              <p>Today I work across full-stack development and AI automation, building web apps end-to-end and designing AI-driven workflows that take manual, repetitive work off people's plates. I'm also actively deepening my machine learning practice, with a specific interest in applying it back to subsurface characterization.</p>
+            </div>
+            <dl class="facts">
+              <div><dt>Base</dt><dd>Nigeria</dd></div>
+              <div><dt>Focus</dt><dd>AI Automation · Full-Stack · Applied ML</dd></div>
+              <div><dt>Background</dt><dd>B.Sc. Geophysics, FUPRE</dd></div>
+              <div><dt>Currently</dt><dd>Building automation systems, open to roles</dd></div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section reveal" id="skills">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">Stack</span>
+          <h2>Tools I reach for.</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-col">
+            <h3>Automation &amp; AI</h3>
+            <ul>
+              <li>n8n</li>
+              <li>Make &amp; Zapier</li>
+              <li>OpenAI API</li>
+              <li>Agentic workflows</li>
+              <li>Prompt engineering</li>
+            </ul>
+          </div>
+          <div class="skill-col">
+            <h3>Backend</h3>
+            <ul>
+              <li>Node.js &amp; Express.js</li>
+              <li>Flask</li>
+              <li>Django</li>
+              <li>Database Management</li>
+              <li>REST APIs</li>
+            </ul>
+          </div>
+          <div class="skill-col">
+            <h3>Frontend</h3>
+            <ul>
+              <li>JavaScript</li>
+              <li>EJS</li>
+              <li>Boostrap</li>
+              <li>HTML &amp; CSS</li>
+              <li>Responsive design</li>
+            </ul>
+          </div>
+          <div class="skill-col">
+            <h3>Data &amp; ML</h3>
+            <ul>
+              <li>scikit-learn</li>
+              <li>OpenCV &amp; YOLOv8</li>
+              <li>Pandas</li>
+              <li>R</li>
+              <li>Subsurface data analysis</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="section reveal" id="work">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">Work</span>
+          <h2>Selected builds.</h2>
+          <p class="lede">A mix of AI automation pipelines, applied ML, embedded systems, and full-stack apps.</p>
+        </div>
+
+        <div class="work-grid">
+
+          <article class="card">
+            <span class="card-tag">Automation / AI</span>
+            <h3>AI Lead-Gen &amp; Qualification Pipeline</h3>
+            <p>an end-to-end pipeline that captures, qualifies, and routes leads for an GrowthPath Agency connecting AI reasoning to real scheduling and outreach.</p>
+            <span class="chips">
+              <span class="chip">n8n</span><span class="chip">OpenAI</span><span class="chip">Google Sheets</span><span class="chip">Calendar</span><span class="chip">Gmail</span><span class="chip">Zapier</span>
+            </span>
+          </article>
+
+          <article class="card">
+            <span class="card-tag">AI / ML</span>
+            <h3>Malaria Detection Model</h3>
+            <p>An ensemble computer-vision model to detect malaria from blood-smear images, built during an NYSC placement at NCAIR.</p>
+            <span class="metric">~92% accuracy</span>
+            <span class="chips">
+              <span class="chip">Computer Vision</span><span class="chip">Ensemble Models</span><span class="chip">Python</span>
+            </span>
+          </article>
+
+          <article class="card">
+            <span class="card-tag">Embedded / AI</span>
+            <h3>Animatronic Eye Tracker</h3>
+            <p>A dual-eye animatronic mechanism that tracks faces in real time, combining onboard object detection with servo-driven motion control.</p>
+            <span class="chips">
+              <span class="chip">ESP32-CAM</span><span class="chip">OpenCV</span><span class="chip">YOLOv8</span><span class="chip">Servo Control</span>
+            </span>
+          </article>
+
+          <article class="card">
+            <span class="card-tag">Full-Stack</span>
+            <h3>School Management System</h3>
+            <p>A relational system for running a school end-to-end students, grades, attendance, staff, and fees,
+              all modeled and connected in PostgreSQL.</p>
+            <span class="chips">
+              <span class="chip">Express.js</span><span class="chip">EJS</span><span class="chip">PostgreSQL</span>
+            </span>
+          </article>
+
+          <article class="card">
+            <span class="card-tag">Automation</span>
+            <h3>n8n Automation Suite</h3>
+            <p>A set of 15 automation builds spanning email triage, research summarization, and a multi-agent pipeline — a structured pass through beginner-to-advanced automation design.</p>
+            <span class="chips">
+              <span class="chip">n8n</span><span class="chip">OpenAI</span><span class="chip">Multi-Agent</span>
+            </span>
+          </article>
+
+          <article class="card">
+            <span class="card-tag">Data / ML</span>
+            <h3>Predictive ML Models</h3>
+            <p>Two applied prediction models — stroke risk and house pricing — covering the full cycle from cleaning to evaluation.</p>
+            <span class="chips">
+              <span class="chip">scikit-learn</span><span class="chip">Pandas</span><span class="chip">Python</span>
+            </span>
+          </article>
+
+        </div>
+
+        <!-- <p class="work-more">More automation builds and experiments live on <a href="#contact">GitHub →</a></p> -->
+      </div>
+    </section>
+
+    <!-- EXPERIENCE — signature strata column -->
+    <section class="section reveal" id="experience">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">Experience</span>
+          <h2>Career, by depth.</h2>
+          <p class="lede">Read top to bottom like a well log — most recent at the surface, foundation at the bottom.</p>
+        </div>
+
+        <div class="strata">
+          <div class="strata-rail" aria-hidden="true"></div>
+
+          <div class="strata-layer">
+            <span class="strata-depth">Surface — current</span>
+            <h3>Software Developer / AI Automation Engineer</h3>
+            <span class="strata-org">Independent — building &amp; freelancing</span>
+            <p>Designing and shipping full-stack products and AI automation workflows, and actively deepening machine learning practice with a focus on applied AI engineering.</p>
+          </div>
+
+          <div class="strata-layer">
+            <span class="strata-depth">Layer — NYSC</span>
+            <h3>AI &amp; Robotics Placement</h3>
+            <span class="strata-org">National Centre for Artificial Intelligence and Robotics (NCAIR)</span>
+            <p>Built an ensemble computer-vision model for malaria detection, reaching ~92% accuracy — first hands-on applied ML work outside the classroom.</p>
+          </div>
+
+          <div class="strata-layer">
+            <span class="strata-depth">Layer — industrial training</span>
+            <h3>Industrial Trainee</h3>
+            <span class="strata-org">Nigerian Geological Survey Agency (NGSA)</span>
+            <p>Worked with geological and geophysical field data — early exposure to reading structure out of raw, noisy measurements.</p>
+          </div>
+
+          <div class="strata-layer">
+            <span class="strata-depth">Bedrock — foundation</span>
+            <h3>B.Sc. Geophysics</h3>
+            <span class="strata-org">Federal University of Petroleum Resources, Effurun (FUPRE)</span>
+            <p>Grounding in signal processing, subsurface data, and physics-based reasoning — the foundation everything above is built on.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section reveal" id="contact">
+      <div class="wrap">
+        <div class="contact-inner">
+          <span class="eyebrow">Contact</span>
+          <h2>Let's build something.</h2>
+          <p class="lede">Open to freelance automation projects, full-stack roles, and collaborations at the intersection of AI and software.</p>
+          <div class="contact-links">
+            <button class="btn btn-primary" id="openContact" type="button" aria-haspopup="dialog" aria-controls="contactModal">Email me</button>
+            <a class="btn btn-ghost" href="#">LinkedIn</a>
+            <a class="btn btn-ghost" href="#">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; width:100%;">
+      <span>Designed &amp; built by KunleFromSpace — 2026</span>
+      <span>Back to <a href="#hero" style="color:var(--signal); border-bottom:1px solid var(--signal);">top ↑</a></span>
+    </div>
+  </footer>
+
+  <div class="modal-overlay" id="contactOverlay" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" id="contactModal">
+      <button class="modal-close" id="closeContact" type="button" aria-label="Close">✕</button>
+      <span class="eyebrow">Contact</span>
+      <h3 id="modalTitle">Send a message</h3>
+      <p class="modal-lede">Fill this in — it'll open in your email client, ready to send, then bring you back here.</p>
+      <form method="post" id="contactForm" action="https://api.web3forms.com/submit" novalidate>
+        <input type="hidden" name="access_key" value="10ea89da-0e00-4fbc-b7a9-ebacf6bf2be1">
+        <label class="field">
+          <span>Name</span>
+          <input type="text" name="name" id="cf-name" required autocomplete="name">
+        </label>
+        <label class="field">
+          <span>Email</span>
+          <input type="email" name="email" id="cf-email" required autocomplete="email">
+        </label>
+        <label class="field">
+          <span>Message</span>
+          <textarea name="message" id="cf-message" rows="4" required></textarea>
+        </label>
+        <div class="modal-actions">
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <button type="button" class="btn btn-ghost" id="cancelContact">Cancel</button>
+        </div>
+        <p class="modal-status" id="contactStatus" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
